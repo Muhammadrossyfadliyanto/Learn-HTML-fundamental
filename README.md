@@ -47,10 +47,10 @@ why not treat me to a cup of coffee? 😄
 
 ### 📫 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Whatsapp](https://img.shields.io/badge/Wathsapp-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
+[![Tiktok(https://img.shields.io/badge/Tiktok-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
 
 ---
 
-⭐️ From [Extra Ordinary Dev](https://github.com/extraordinarydev)
+⭐️ From [Vale Yellow Dev](https://github.com/Valeyellowdev)
