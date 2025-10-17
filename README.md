@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Vale Yellow Dev!
+# 👋 Hi there, I'm M Rossy F.y Dev!
 
 ### 💻 Web Developer | JavaScript & C Enthusiast
 
@@ -53,4 +53,4 @@ why not treat me to a cup of coffee? 😄
 
 ---
 
-⭐️ From [Vale Yellow Dev](https://github.com/Valeyellowdev)
+⭐️ From [M Rossy F.y Dev](https://github.com/Valeyellowdev)
