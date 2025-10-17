@@ -1,211 +1,224 @@
-<!-- Create By Vale yellow -->
+<!-- Created by Valeyellow -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertemuan_0</title>
+    <title>Pertemuan 0 - Praktikum Pemrograman HTML</title>
     <link rel="icon" type="image/png" href="Logo Muhtiga.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #1a237e, #283593);
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header img {
+            width: 90px;
+            float: left;
+            margin-left: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.6rem;
+        }
+        header h5, header h6 {
+            margin: 3px 0;
+            font-weight: normal;
+        }
+        main {
+            padding: 20px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #1a237e;
+            margin: 20px 0;
+        }
+        h1, h2, h3 {
+            color: #1a237e;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 8px 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #e3f2fd;
+        }
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+        .note {
+            text-align: center;
+            margin-top: 40px;
+            color: #555;
+        }
+        .layout-table {
+            width: 80%;
+            margin: 30px auto;
+            border: 2px solid #283593;
+        }
+        .layout-table td {
+            padding: 10px;
+        }
+        .layout-table tr:first-child {
+            background-color: #ffeb3b;
+        }
+        .layout-table tr:last-child {
+            background-color: #ffeb3b;
+        }
+        .code {
+            font-family: monospace;
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
-<body style="margin: 0;">
-    <div class="logo">
-        <img src="Logo Muhtiga.png" alt="Logo" style="width: 100px; height: auto; float: left; margin: 0.5%;">
-    <div class="header" style="background-color: rgb(40, 23, 189); text-align: center; padding: 0.5%;">
+<body>
+
+    <header>
+        <img src="Logo Muhtiga.png" alt="Logo SMK Muhtiga">
         <h1>SMK MUHAMMADIYAH 3 TANGERANG SELATAN</h1>
-        <h5>Program Keahlian Rekayasa Perangka Lunak</h5>
-        <h6>Modul 0.1 - Praktikum Pemrograman html ( HTML, PHP dan CSS )</h6>
-    </div>
-    </div>
-    <hr>
-    <div class="judul" style="text-align: center; margin-top: 1%;">
-        <h2>Praktikum Pemrogram html</h2>
-        <h3>HTML, PHP dan CSS</h3>
-        <h6>Disusun Oleh : Kevin Permana, S.Kom</h6>
-    </div>
-    <hr>
-    <div class="isi" style="margin: 20px;">
-        <h1>1. Tujuan</h1>
-        <p>Setelah mempelajari modul ini, peserta didik diharapkan dapat: <br>
-            •	Memahami dasar pemrograman web menggunakan HTML (HyperText Markup Language). <br>
-            •	Mengenal berbagai tag dan elemen dasar HTML. <br>
-            •	Menyusun halaman web sederhana menggunakan HTML. <br>
-            •	Menyelesaikan beberapa latihan pemrograman dasar HTML secara mandiri. <br>
-        </p>
-        <h1>2. Dasar Teori</h1>
-        <h3>2.1 Pengertian HTML</h3>
-        <p>HTML (Hyper Text Markup Language) Merupaka bahasa markup untuk menyusun halaman web yang dapat dibaca oleh browser. <br>
-            <br>Browser seperti Google Chrome atau Firefox akan menerjemahkan kode HTML menjadi tampilan visual halaman web</p>
-        </p>
-        <h3> Beberapa Element Dasar HTML yang sering digunakan :</h3>
-        <table border="1">
-        <tr style="background-color: aqua;">
-            <th>Tag HTML</th>
-            <th>Fungsi/Deskripsi</th>
-        </tr>
-        <tr>
-            <td>&lt;h1&gt; – &lt;h6&gt;</td>
-            <td>Menentukan ukuran judul (heading)</td>
-        </tr>
-        <tr>
-            <td>&lt;p&gt;</td>
-            <td>Menulis paragraf</td>
-        </tr>
-        <tr>
-            <td>&lt;a&gt;</td>
-            <td>Membuat tautan (link)</td>
-        </tr>
-        <tr>
-            <td>&lt;div&gt;</td>
-            <td>Membuat blok atau bagian tertentu dalam halaman</td>
-        </tr>
-        <tr>
-            <td>&lt;img&gt;</td>
-            <td>Menampilkan gambar</td>
-        </tr>
-        <tr>
-            <td>&lt;br&gt;</td>
-            <td>Ganti baris</td>
-        </tr>
-        <tr>
-            <td>&lt;hr&gt;</td>
-            <td>Menambahkan garis horizontal</td>
-        </tr>
-        <tr>
-            <td>&lt;b&gt;</td>
-            <td>Menebalkan teks</td>
-        </tr>
-        <tr>
-            <td>&lt;i&gt;</td>
-            <td>Memiringkan teks</td>
-        </tr>
-        </table>
-        <h1>3. Langkah percobaan</h1>
-        <h3>3.1 Heading HTML</h3>
+        <h5>Program Keahlian: Rekayasa Perangkat Lunak</h5>
+        <h6>Modul 0.1 - Praktikum Pemrograman Web (HTML, CSS, dan PHP)</h6>
+    </header>
 
-        <h1>This is heading 1</h1>
-        <h2>This is heading 1</h2>
-        <h3>This is heading 1</h3>
-        <h4>This is heading 1</h4>
-        <h5>This is heading 1</h5>
-        <h6>This is heading 1</h6>
+    <main>
+        <section>
+            <h1>1. Tujuan</h1>
+            <p>Setelah mempelajari modul ini, peserta didik diharapkan dapat:</p>
+            <ul>
+                <li>Memahami dasar pemrograman web menggunakan HTML.</li>
+                <li>Mengenal berbagai tag dan elemen dasar HTML.</li>
+                <li>Menyusun halaman web sederhana menggunakan HTML.</li>
+                <li>Menyelesaikan latihan pemrograman dasar HTML secara mandiri.</li>
+            </ul>
+        </section>
 
-        <h3>3.2 Paragraf HTML</h3>
-        <p>This is a paragraph.</p>
-
-        <!--
-    _____  _     _ _     _ 
-    / ____|| |   (_) |   | |
-    | (___  | |__  _| | __| |
-    \___ \ | '_ \| | |/ _` |
-    ____) || | | | | | (_| |
-    |_____/ |_| |_|_|_|\__,_|
-    
-    :-)
-    Author: Valeyellow/ SMK Muhammadiyah 3 Tangerang Selatan
-    Jika kode ini dipergunakan tanpa ijin, kontak pemilik.
-    -->
-
-
-        <h3>3.3 HTML Link</h3>
-        <a style="text-decoration: underline;" href="https://www.w3schools.com">This is a link to W3Schools</a>
-        <h3>3.4 HTML Image</h3>
-        <img src="Logo Muhtiga.png" alt="Logo" style="width: 100px; height: auto;">
-        <h3>3.5 Garis Horizontal</h3>
-        <p>The hr tag defines a horizontal rule:</p>
         <hr>
-        <p>This is a paragraph.</p>
-        <h3>3.6 Ganti Baris</h3>
-        <p>This is <br> a para <br> graph with line breaks</p>
-        <h3>3.7 Format Text HTML</h3>
-        <b>This text is bold</b><br>
-        <i>This text is italic</i><br>
-        <u>This text is underline</u><br>
-        <h3>3.8 HTML Table</h3>
-        <table border="1" style="width: 100%;">
-            <tr style="background-color: aqua;">
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Age</th>
-            </tr>
-            <tr>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-            </tr>
-        </table>
-        <h3>3.9 HTML List</h3>
-        <h5>Unordered List</h5>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
-        <h5>Ordered List</h5>
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ol>
-        <h3>3.10 HTML Layout</h3>
-        
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Modul 0.1 - Praktikum Pemrograman HTML</title>
-        </head>
-        <body>
 
-            <table border="1" width="80%" align="center">
-                <tr bgcolor="yellow">
-                    <td colspan="2" align="center">
-                        <h2>Main Title of Web Page</h2>
-                    </td>
-                </tr>
+        <section>
+            <h1>2. Dasar Teori</h1>
+            <h3>2.1 Pengertian HTML</h3>
+            <p>HTML (<b>HyperText Markup Language</b>) adalah bahasa markup untuk membuat halaman web yang dapat ditampilkan oleh browser seperti Google Chrome atau Firefox. Browser akan menerjemahkan kode HTML menjadi tampilan visual halaman web.</p>
 
+            <h3>2.2 Beberapa Elemen Dasar HTML</h3>
+            <table>
                 <tr>
-                    <td width="20%">
+                    <th>Tag HTML</th>
+                    <th>Fungsi / Deskripsi</th>
+                </tr>
+                <tr><td><code>&lt;h1&gt;–&lt;h6&gt;</code></td><td>Menentukan ukuran judul (heading)</td></tr>
+                <tr><td><code>&lt;p&gt;</code></td><td>Menulis paragraf</td></tr>
+                <tr><td><code>&lt;a&gt;</code></td><td>Membuat tautan (link)</td></tr>
+                <tr><td><code>&lt;div&gt;</code></td><td>Membuat blok / bagian tertentu</td></tr>
+                <tr><td><code>&lt;img&gt;</code></td><td>Menampilkan gambar</td></tr>
+                <tr><td><code>&lt;br&gt;</code></td><td>Ganti baris</td></tr>
+                <tr><td><code>&lt;hr&gt;</code></td><td>Garis horizontal</td></tr>
+                <tr><td><code>&lt;b&gt;</code></td><td>Teks tebal</td></tr>
+                <tr><td><code>&lt;i&gt;</code></td><td>Teks miring</td></tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>3. Langkah Percobaan</h1>
+            <h3>3.1 Heading HTML</h3>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+            <h3>3.2 Paragraf HTML</h3>
+            <p>Ini adalah contoh paragraf sederhana.</p>
+
+            <h3>3.3 Tautan HTML</h3>
+            <a href="https://www.w3schools.com" target="_blank">Kunjungi W3Schools</a>
+
+            <h3>3.4 Gambar HTML</h3>
+            <img src="Logo Muhtiga.png" alt="Logo Muhtiga" style="width: 120px; display:block; margin:10px auto;">
+
+            <h3>3.5 Garis Horizontal</h3>
+            <hr>
+
+            <h3>3.6 Ganti Baris</h3>
+            <p>Ini contoh <br> teks dengan <br> baris baru.</p>
+
+            <h3>3.7 Format Teks HTML</h3>
+            <p><b>Teks Tebal</b><br><i>Teks Miring</i><br><u>Teks Bergaris Bawah</u></p>
+
+            <h3>3.8 Tabel HTML</h3>
+            <table>
+                <tr><th>Nama Depan</th><th>Nama Belakang</th><th>Usia</th></tr>
+                <tr><td>Jill</td><td>Smith</td><td>50</td></tr>
+                <tr><td>Eve</td><td>Jackson</td><td>35</td></tr>
+            </table>
+
+            <h3>3.9 Daftar HTML</h3>
+            <h4>Unordered List</h4>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <h4>Ordered List</h4>
+            <ol>
+                <li>Langkah 1</li>
+                <li>Langkah 2</li>
+                <li>Langkah 3</li>
+            </ol>
+
+            <h3>3.10 Layout HTML (Contoh Table Layout)</h3>
+            <table class="layout-table">
+                <tr>
+                    <td colspan="2" align="center"><h2>Judul Utama Website</h2></td>
+                </tr>
+                <tr>
+                    <td width="25%">
                         <b>Menu</b><br>
-                        HTML<br>
-                        CSS <br>
-                        JavaScript<br>
+                        HTML<br>CSS<br>JavaScript
                     </td>
                     <td>
-                        Content goes here...
+                        <p>Konten utama ditulis di sini...</p>
                     </td>
                 </tr>
-
-                <!--
-   ／l、
-（ﾟ､ ｡ ７
-  l  ~ヽ
-  じしf_,)ノ
-
-  // WM: dibuat oleh Valeyellow
--->
-
-
-                <tr bgcolor="yellow">
-                    <td colspan="2" align="center"> <!--colspan itu buat gabungin 2 kolom pak, kalau di excel itu namanya marge cells pak, kan saya buat dua, trus saya pakai colspan buat menjadikan satu pak, biar look nya dapet -->
-                        Copyright &copy; SMK Muhammadiyah 3 Tangerang Selatan
-                    </td>
+                <tr>
+                    <td colspan="2" align="center">&copy; 2025 SMK Muhammadiyah 3 Tangerang Selatan</td>
                 </tr>
             </table>
-            <hr>
-            <div style="text-align: center;">
-                <p><b>Modul 0.1 - Praktikum Pemrograman html</b></p>
-                <p>SMK Muhammadiyah 3 Tangerang Selatan</p>
-                <i>Program Keahlian Rekayasa Perangkat Lunak</i>
-            </div>
+        </section>
 
-        </body>
-        </html>
+        <div class="note">
+            <p><b>Modul 0.1 - Praktikum Pemrograman HTML</b><br>
+            SMK Muhammadiyah 3 Tangerang Selatan<br>
+            <i>Program Keahlian Rekayasa Perangkat Lunak</i></p>
+        </div>
+    </main>
 
+    <footer>
+        <p>Created by <b>Valeyellow</b> | SMK Muhammadiyah 3 Tangerang Selatan</p>
+    </footer>
 
 </body>
-
 </html>
