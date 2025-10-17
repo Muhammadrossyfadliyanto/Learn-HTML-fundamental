@@ -49,7 +49,7 @@ why not treat me to a cup of coffee? 😄
 
 [![Whatsapp](https://img.shields.io/badge/Wathsapp-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
-[![Tiktok(https://img.shields.io/badge/Tiktok-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
+[![Portofolio(https://img.shields.io/badge/Portofolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
 
 ---
 
